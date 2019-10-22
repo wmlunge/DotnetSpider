@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetSpider.Kafka\DotnetSpider.Kafka.csproj" />
+    <ProjectReference Include="..\DotnetSpider.Mongo\DotnetSpider.Mongo.csproj" />
+    <ProjectReference Include="..\DotnetSpider.PostgreSql\DotnetSpider.PostgreSql.csproj" />
+    <ProjectReference Include="..\DotnetSpider\DotnetSpider.csproj" />
+  </ItemGroup>
+  
+</Project>

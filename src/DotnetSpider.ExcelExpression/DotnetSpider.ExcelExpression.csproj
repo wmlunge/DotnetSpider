@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../package.props" />
+
+  <PropertyGroup>
+    <PackageId>DotnetSpider.ExcelExpression</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="ToolGood.Algorithm" Version="1.3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetSpider\DotnetSpider.csproj" />
+  </ItemGroup>
+  
+</Project>

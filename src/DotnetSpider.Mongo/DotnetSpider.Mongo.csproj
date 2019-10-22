@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../package.props" />
+
+  <PropertyGroup>
+    <PackageId>DotnetSpider.Mongo</PackageId>
+  </PropertyGroup>
+    
+  <ItemGroup>
+    <ProjectReference Include="..\DotnetSpider\DotnetSpider.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+      <PackageReference Include="MongoDB.Driver" Version="2.9.1" />
+  </ItemGroup>
+  
+</Project>
